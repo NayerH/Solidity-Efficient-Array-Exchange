@@ -19,7 +19,6 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {
       allowUnlimitedContractSize: true,
-      blockGasLimit: 100000000429720,
       gas: 2100000,
       gasPrice: 8000000000,
     }
