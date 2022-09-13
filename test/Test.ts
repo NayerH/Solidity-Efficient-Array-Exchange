@@ -27,6 +27,7 @@ describe("Test", function () {
       await test2Instance.testArray1();
       expect(await test2Instance.weights(0)).to.equal(10);
       expect(await test2Instance.weights(14)).to.equal(24);
+      expect(await test2Instance.getArraySize()).to.equal(15);
     });
 
     it("testArray2", async function () {
@@ -34,6 +35,7 @@ describe("Test", function () {
       await test2Instance.testArray2();
       expect(await test2Instance.weights(0)).to.equal(10);
       expect(await test2Instance.weights(14)).to.equal(24);
+      expect(await test2Instance.getArraySize()).to.equal(15);
     });
 
     it("testArray3", async function () {
@@ -41,6 +43,7 @@ describe("Test", function () {
       await test2Instance.testArray3();
       expect(await test2Instance.weights(0)).to.equal(10);
       expect(await test2Instance.weights(14)).to.equal(24);
+      expect(await test2Instance.getArraySize()).to.equal(15);
     });
 
     it("testMapping1", async function () {
@@ -48,6 +51,7 @@ describe("Test", function () {
       await test2Instance.testMapping1();
       expect(await test2Instance.weights(0)).to.equal(10);
       expect(await test2Instance.weights(14)).to.equal(24);
+      expect(await test2Instance.getArraySize()).to.equal(15);
     });
 
     it("testMapping2", async function () {
@@ -55,6 +59,7 @@ describe("Test", function () {
       await test2Instance.testMapping2();
       expect(await test2Instance.weights(0)).to.equal(10);
       expect(await test2Instance.weights(14)).to.equal(24);
+      expect(await test2Instance.getArraySize()).to.equal(15);
     });
 
   });

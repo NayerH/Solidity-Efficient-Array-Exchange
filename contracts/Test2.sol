@@ -48,4 +48,8 @@ contract Test2 {
       console.log(weights[i]);
     }
   }
+
+  function getArraySize() external view returns (uint256) {
+    return weights.length;
+  }
 }
